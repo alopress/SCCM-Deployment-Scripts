@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+	<Application>
+		<Start>
+			<CheckForUpdate>false</CheckForUpdate>
+			<CheckForUpdateConfigured>true</CheckForUpdateConfigured>
+		</Start>
+		<TriggerSystem>
+			<Triggers />
+		</TriggerSystem>
+	</Application>
+
+	<Security>
+		<WorkspaceLocking>
+			<LockOnSessionSwitch>true</LockOnSessionSwitch>
+			<LockOnSuspend>true</LockOnSuspend>
+			<LockOnRemoteControlChange>true</LockOnRemoteControlChange>
+			<LockAfterTime>300</LockAfterTime>
+			<LockAfterGlobalTime>240</LockAfterGlobalTime>
+		</WorkspaceLocking>
+		<Policy>
+			<Plugins>false</Plugins>
+			<Export>false</Export>
+			<ExportNoKey>false</ExportNoKey>
+			<Import>false</Import>
+			<Print>false</Print>
+			<PrintNoKey>false</PrintNoKey>
+			<CopyWholeEntries>false</CopyWholeEntries>
+			<DragDrop>false</DragDrop>
+			<UnhidePasswords>false</UnhidePasswords>
+		</Policy>
+		<MasterPassword>
+			<MinimumLength>8</MinimumLength>
+			<MinimumQuality>20</MinimumQuality>
+		</MasterPassword>
+		<ClipboardClearAfterSeconds>15</ClipboardClearAfterSeconds>
+	</Security>
+	<Integration>
+		<ProxyType>System</ProxyType>
+		<ProxyAuthType>Auto</ProxyAuthType>
+	</Integration>
+</Configuration>
