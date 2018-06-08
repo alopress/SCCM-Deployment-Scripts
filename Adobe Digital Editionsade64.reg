@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\N360]
+[HKEY_CURRENT_USER\Software\Adobe\Adobe Digital Editions 4.5]
+"ConfigPath"="C:\\Program Files (x86)\\Adobe\\Adobe Digital Editions 4.5\\adeupdaterconfig.cfg"
+"EnableAutoUpdate"="0"
+"ReaderState"="0"
+"UpdateInterval"="0"
+"UpdaterPath"="C:\\Program Files (x86)\\Adobe\\Adobe Digital Editions 4.5\\ADEAutoUpdater_450.exe"
